@@ -12,7 +12,7 @@ h1 {
     /* width: 70%; */
     font-family: 'Georgia', Times, Times New Roman, serif;
     border-bottom: 2px solid #dddddd;
-    margin-left: 300px;
+    margin-left: 250px;
     /* margin-right: auto; */
 }
 
@@ -26,38 +26,31 @@ h2{
 h6{
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: white;
-    padding: 50px 10px 3px 10px;
+    padding: 50px 0px 3px 0px;
     clear: both;
     background: #666666;
     border-top: 6px solid #4aaaa5;
     text-align: center;
-    position: absolute;
+    position: fixed;
     bottom: 0;
     width: 100%;
     margin: 0px;
-
 }
 
 
 .link{
-    /* float: left; */
-    /* width: 672px; */
     background-color: #ffffff;
-    padding: 30px 500px 69px 10px;;
-    /* padding-bottom: 60px; */
+    padding: 30px 0px 39px 0px;;
     margin-left: auto;
     margin-right: auto;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    text-align: right; 
-    /* display: block; */
-    /* position: static;    */
-    /* text-indent: 300px; */
+    text-align: center; 
     border-bottom: 2px solid #dddddd;
     font-size: 15px;
     text-decoration: none;
     text-decoration: underline;
     color: #888787;
-
+    width: 100%;
 }
 
 .box1{
@@ -67,13 +60,12 @@ h6{
     height: auto;
     border: 1px solid #dddddd;
     box-sizing: border-box;
-    margin-left: 300px;
+    margin-left: 250px;
     width: 50%;
     background-color: #ffffff;
     padding: 20px 20px 20px 20px;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: #888787;
-
 }
 
 .box2 img{
@@ -93,7 +85,32 @@ h6{
     max-width: 200px;
     max-height: 200px;
     padding-right: 10px;
+    padding: 6px 6px 6px 6px;
+}
 
+.image-contain{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+
+
+}
+
+.text-image{
+    position: absolute;
+    left: 50px;
+    bottom: 10px;
+    background-color: #4aaaa5;
+    color: white;
+
+}
+
+.text-image2{
+    position: absolute;
+    left: 50px;
+    bottom: 10px;
+    background-color: #4aaaa5;
+    color: white;
 
 }
 
@@ -102,13 +119,14 @@ h6{
 }
 
 .name-email{
-    width: 720px;
-    max-width: auto;
+    width: 100%;
+    max-width: 940px;
     height: 30px;
 }
 
 .message1{
-    width: 720px;
+    width: 100%;
+    max-width: 940px;
     height: 200px;
 }
 
@@ -122,5 +140,4 @@ h6{
     color: white; 
     text-align: center;
     font-size: 15px;
-
 }
